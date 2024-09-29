@@ -1,0 +1,378 @@
+<html></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #bdfabb;
+        }
+        .navbar{
+            background: #027d27;
+            color: #ffffff;
+            display: flex;
+            align-items: center;                          
+            justify-content: center;
+            font-size:100%;
+            height: 70px;
+            position: fixed;
+            top: 0%;
+            width: 100%;
+            z-index: 1000;
+        }
+        .ul{
+            display:flex;
+            list-style: none;
+            padding: 0;
+            margin-left: 28%;
+            
+        }
+        .list{
+
+            padding: 10px;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            margin-left: 40px;
+}
+.search-bar button {
+    padding: 3px 8px;
+    font-size: small;
+    background-color: rgb(251, 255, 0);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 30px;
+}
+
+.search-bar button:hover {
+    background-color: #5df704;
+}
+
+.search-bar input {
+    padding: 6px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+        footer {
+        display: inline-block;
+        justify-content: space-around;
+        align-items: center; 
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 10px 0;
+        background: #027d27;
+        color: #ffffff;
+        width: 100%;
+        height: 350px; 
+        position: relative;
+        bottom: 0;
+    }
+
+    footer img {
+        margin-top: 20px; 
+    }
+    main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    padding: 20px; 
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 0; 
+    padding-top: 10px;
+}
+    .u2{
+        display: inline-block;
+        margin-right: 6%;
+        color: white;
+        line-height: 20px;
+   }
+        a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+ .divbox
+  {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:#d3feea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    height: auto;
+    margin: 10px auto;
+}
+.divbox:hover {
+    transform: scale(1.05);
+}
+.divbox img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+button {
+    color: #ffffff;
+    background-color: rgb(255, 166, 0);
+    height: 40px;
+    width: 45%; 
+    font-size: small;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.4s;
+    text-align: center;
+    margin-top: auto;
+    display: inline-block;
+}
+ button:hover{
+            background-color: rgb(255, 0, 234);
+ }
+ button + button 
+ {
+            margin-left: 10px;
+}
+ .button-container {
+           display: flex;
+           justify-content: space-between; 
+           gap: 10px;
+}
+        h3 {
+        color: darkblue;
+        text-align: left;
+}
+h2 {
+    color: #000;
+    text-align: left;
+}
+p {
+    text-align: left;
+    margin: 10px 0;
+    flex-grow: 0;
+}
+h6{
+    font-size: xx-large;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.li{
+        margin: 10px;
+       }
+       @media (min-width: 480px) and (max-width: 767px){
+        .navbar{
+            width: 100%;
+            height: 50px;
+            font-size: 10px;
+        }
+        .navbar img{
+            height: 70px;
+            width: 70px;
+            margin-left: -10px;
+        }
+        
+        div.search-bar{
+            display: none;
+        }
+        .list{
+            font-size: 13px;
+            padding: 1px;
+            float: right;
+            display:inline-flex;
+            margin-left: 10px;
+        }
+    }
+         </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+<nav class="navbar">
+    <img src="./toy shop images/abstract-baby-toy-shop-removebg-preview.png" alt="" height="130" width="130">
+    <div class="search-bar">
+        <i class="fa-solid fa-magnifying-glass"></i>&nbsp;&nbsp;
+        <input type="text" placeholder="Search...">&nbsp;&nbsp;
+        <button type="submit">Search</button>
+    </div>
+    <ul class="ul">
+        <li class="list"><a href="./index.html"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;Home</a></li>
+        <li class="list"><a href="./p1login.html"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;&nbsp;Login</a></li>
+        <li class="list"><a href="./p1explore.html"><i class="fa-brands fa-product-hunt"></i>&nbsp;&nbsp;Explore</a></li>
+        <li class="list"><a href="./p1about.html"><i class="fa-regular fa-address-card"></i>&nbsp;&nbsp;About US</a></li>
+        <li class="list"><a href=""><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Cart</a></li>
+     </ul>
+    </nav>
+    <br><br><br><br><br>
+    <center><b><h6><span style="color:rgb(73, 0, 0);">TOYS<span style="color: darkblue;">&nbsp;&nbsp;WORLD</span>.com</span></h6></b></center>
+    <br><br>
+    <main>
+    <div class="divbox">
+        <center><img src="./toy shop images/bm-removebg-preview.png" alt="" width="200" height="200"></center>
+        <h3>BatMan</h3>
+        <p>The Batman 2022 Movie Series 4-inch Action Figure Batman .</p>
+        <h2>Rs 399/-</h2>
+        <div class="button-container">
+            <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+            <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+        </div>
+    <h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+    </div> 
+    <div class="divbox">
+        <center><img src="./toy shop images/6000205403262-removebg-preview.png" alt="" width="200" height="200"></center>
+        <h3>SuperMan</h3>
+        <p>DC Comics, 4-Inch Superman Action Figure with 3 Mystery Accessories, for Kids.</p>
+        <h2>Rs 225/-</h2>
+        <div class="button-container">
+            <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+            <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+        </div>
+    <h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+    </div>
+    <div class="divbox">
+    <center><img src="./toy shop images/hulk-removebg-preview.png" alt="" width="200" height="200"></center>
+        <h3>Hulk</h3>
+        <p>Buy BALLOON BEES- 7-Inch Hulk Action Hero Toy Set Superhero Action.</p>
+        <h2>Rs 479/-</h2>
+        <div class="button-container">
+            <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+            <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+        </div>
+    <h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+    </div>
+    <div class="divbox">
+        <center><img src="./toy shop images/spy-removebg-preview.png" alt="" width="200" height="200"></center>
+        <h3>SpiderMan</h3>
+        <p>Marvel Titan Hero Series Spider-Man 12-Inch Action Figure with Fx Port. </p>
+        <h2>Rs 455/-</h2>
+        <div class="button-container">
+            <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+            <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+        </div>
+    <h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+      </div>
+      <div class="divbox">
+        <center><img src="./toy shop images/dp-removebg-preview.png" alt="" width="200" height="200"></center>
+        <h3>DeadPool</h3>
+        <p>Buy Marvel Deadpool 12-inch Deadpool Figure Online at Low Prices in India. </p>
+        <h2>Rs 579/-</h2>
+        <div class="button-container">
+            <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+            <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+        </div>
+    <h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+        </div>
+        <div class="divbox"> 
+        <center><img src="./toy shop images/wol-removebg-preview.png" alt="" width="200" height="200"></center>
+        <h3>Wolverine</h3>
+        <p>Buy Marvel X-Men 28.5 cm Wolverine Titan Hero Series Figure, X-Men Toys, Superhero Toy.</p>
+        <h2>Rs 380/-</h2>
+        <div class="button-container">
+            <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+            <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+        </div>
+    <h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+     </div>
+<div class="divbox">   
+        <center><img src="./toy shop images/ca-removebg-preview (1).png" alt="" width="200" height="200"></center>
+        <h3>Captain America</h3>
+        <p>Buy Marvel Legends Captain America Power and Glory 6 Inch Action Figure.</p>
+        <h2>Rs 650/-</h2>
+        <div class="button-container">
+            <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+            <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+        </div>
+    <h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+        </div>
+        <div class="divbox">
+        <center><img src="./toy shop images/im-removebg-preview.png" alt="" width="200" height="200"></center>
+        <h3>IronMan</h3>
+        <p>Marvel Mighty Hero Series Iron Man Action Figure, 9.5-Inch Poseable Super Hero Toy.</p>
+        <h2>Rs475/-</h2>
+        <div class="button-container">
+            <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+            <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+        </div>
+    <h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+       </div>
+       <div class="divbox">
+       <center><img src="./toy shop images/tn-removebg-preview.png" alt="" width="200" height="200"></center>
+        <h1>Thanos</h3>
+        <p>MARVEL Avengers Titan Hero Series Blast Gear Deluxe Thanos Action Figure, 12-Inch Toy.</p>
+        <h2>Rs 520/-</h2>
+        <div class="button-container">
+            <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+            <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+        </div>
+    <h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+    </div>
+    <div class="divbox">
+        <center><img src="./toy shop images/flash-removebg-preview.png" alt="" width="230" height="200"></center>
+        <h3>Flash</h3>
+        <p>Buy McFarlane Toys DC Justice League Movie The Flash 7" Action Figure.</p>
+        <h2>Rs 659/-</h2>
+        <div class="button-container">
+            <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+            <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+        </div>
+    <h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+     </div>
+     <div class="divbox">
+        <br><center><img src="./toy shop images/wanda-removebg-preview.png" alt="" width="200" height="200"></center>
+        <h3>Scarlet Witch</h3>
+        <p>Wandavision Scarlet Witch PVC Figure Brand: Diamond Select Toys.</p>
+        <h2>Rs 899/-</h2>
+        <div class="button-container">
+            <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+            <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+        </div>
+    <h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+    </div>
+    <div class="divbox">
+        <center><img src="./toy shop images/sg-removebg-preview.png" alt="" width="200" height="200"></center>
+        <h3>SuperGirl</h3>
+        <p>McFarlane DC Direct - Injustice 2 - Page Punchers - 7" Supergirl Figure with Comic.</p>
+        <h2>Rs 250/-</h2>
+        <div class="button-container">
+            <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+            <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+        </div>
+    <h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+    </div>
+    </main>
+    <br><br><br>
+    <footer class="footer1">
+        <ul class="u2">
+            <div class="li">GET TO KNOW US</div><br>
+            <div class="li"><a href="">careers</a></li>
+            <div class="li"><a href="">sustainablity</a></div>
+            <div class="li"><a href="">about toys</a></div>
+            <div class="li"><a href="">accesiblity</a></div>
+            <div class="li"><a href="">press center</a></div>
+            <div class="li"><a href="">Toys devices</a></div> 
+        </ul>
+        <ul class="u2">
+            <div class="li">MAKE MONEY WITH US</div><br>
+            <div class="li"><a href="">sell on Toys world</a></div>
+            <div class="li"><a href="">sell apps on toyshop</a></div>
+            <div class="li"><a href="">advertise your products</a></div>
+            <div class="li"><a href="">self publish with us</a></div>
+            <div class="li"><a href="">become an affiliate</a></div>
+            <div class="li"><a href="">become a delivery driver</a></div>
+        </ul>
+        <ul class="u2">
+            <img src="./toy shop images/abstract-baby-toy-shop-removebg-preview.png" alt="" height="150px" width="150px"><br>
+            <img src="./toy shop images/white-facebook-removebg-preview.png" alt="" height="50" width="50">&nbsp;
+            <img src="./toy shop images/insta_1-removebg-preview.png" alt="" height="46" width="50">&nbsp;&nbsp;
+            <img src="./toy shop images/mail_-removebg-preview.png" alt="" height="50" width="47">&nbsp;&nbsp;
+            <img src="./toy shop images/whatsapp-removebg-preview.png" alt="" height="40" width="40">
+        </ul>       
+    </footer>
+</body>
+</html>

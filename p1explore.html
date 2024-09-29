@@ -1,0 +1,380 @@
+<html></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:  #bdfabb;
+        }
+        .navbar{
+            background: #027d27;
+            color: #ffffff;
+            display: flex;
+            align-items: center;                          
+            justify-content: center;
+            font-size:100%;
+            height: 70px;
+            position: fixed;
+            top: 0%;
+            width: 100%;
+            z-index: 1000;
+        }
+        a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .ul{
+            display:flex;
+            list-style: none;
+            padding: 0;
+            margin-left: 28%;
+           
+        }
+        .list{
+
+            padding: 10px;
+        }
+ .search-bar {
+            display: flex;
+            align-items: center;
+            margin-left: 40px;
+}
+.search-bar button {
+    padding: 3px 8px;
+    font-size: small;
+    background-color: rgb(251, 255, 0);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 30px;
+}
+
+.search-bar button:hover {
+    background-color: #5df704;
+}
+
+.search-bar input {
+    padding: 6px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+        footer {
+        display: inline-block;
+        justify-content: space-around;
+        align-items: center; 
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 10px 0;
+        background:#027d27;
+        color: #ffffff;
+        width: 100%;
+        height: 350px; 
+        position: relative;
+        bottom: 0;
+    }
+
+    footer img {
+        margin-top: 20px; 
+    }
+    main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px; 
+    padding: 20px; 
+    justify-content: center;
+    align-items: stretch;
+}
+    .u2{
+        display: inline-block;
+        margin-right: 6%;
+        color: white;
+        line-height: 20px;
+   }
+        a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+ .divbox
+  {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #d3feea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    height: auto;
+    margin: 10px auto;
+}
+.divbox:hover {
+    transform: scale(1.05);
+}
+.divbox img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+button {
+    color: #ffffff;
+    background-color: rgb(255, 166, 0);
+    height: 40px;
+    width: 60%; 
+    font-size:small;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.4s;
+    text-align: center;
+    margin-top: auto;
+    display: inline-block;
+}
+ button:hover{
+            background-color: rgb(255, 0, 234);
+ }
+ button + button 
+ {
+            margin-left: 10px;
+}
+ .button-container {
+           display: flex;
+           justify-content: space-between; 
+           gap: 10px;
+}
+        h3 {
+        color: darkblue;
+        text-align: left;
+}
+h2 {
+    color: #000;
+    text-align: left;
+}
+p {
+    text-align: left;
+    margin: 10px 0;
+    flex-grow: 0;
+}
+h6{
+    font-size: xx-large;
+    margin: 10px 0; 
+    padding: 0;
+}
+.li{
+        margin: 10px;
+       }
+       @media (min-width: 480px) and (max-width: 767px){
+        .navbar{
+            width: 100%;
+            height: 50px;
+            font-size: 10px;
+        }
+        .navbar img{
+            height: 70px;
+            width: 70px;
+            margin-left: -10px;
+        }
+        
+        div.search-bar{
+            display: none;
+        }
+        .list{
+            font-size: 13px;
+            padding: 1px;
+            float: right;
+            display:inline-flex;
+            margin-left: 10px;
+        }
+}
+         </style>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+    <img src="./toy shop images/abstract-baby-toy-shop-removebg-preview.png" alt="" height="130" width="130">
+        <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>&nbsp;&nbsp;
+            <input type="text" placeholder="Search...">&nbsp;&nbsp;
+            <button type="submit">Search</button>
+        </div>
+        <ul class="ul">
+            <li class="list"><a href="./index.html"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;Home</a></li>
+            <li class="list"><a href="./p1login.html"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;&nbsp;Login</a></li>
+            <li class="list"><a href="./p1about.html"><i class="fa-regular fa-address-card"></i>&nbsp;&nbsp;About US</a></li>
+            <li class="list"><a href=""><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Cart</a></li>
+
+        </ul>
+    </nav>
+    <br><br><br><br>
+    <center><b><h6><span style="color:rgb(73, 0, 0);">TOYS<span style="color: darkblue;">&nbsp;&nbsp;WORLD</span>.com</span></h6></b></center>
+    <main>
+    <div class="divbox">
+    <center><img src="./toy shop images/football-removebg-preview.png" alt="" width="200" height="200"></center>
+    <h3>FootBall</h3>
+    <p>VGS Black and White FootBall and football size:5(pack of 1).</p>
+    <h2>Rs 1199/-</h2>
+    <div class="button-container">
+        <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+        <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+    </div>
+<h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+</div> 
+    
+<div class="divbox">
+    <center><img src="./toy shop images/remote_car-removebg-preview.png" alt="" width="200" height="200"></center>
+    <h3>Remote CAR</h3>
+    <p>Xcillince Toys remote control super high speed racing car.</p>
+    <h2>Rs 863/-</h2>
+    <div class="button-container">
+        <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+        <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+    </div>
+<h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+</div>
+<div class="divbox">
+<center><img src="./toy shop images/teddy_love-removebg-preview.png" alt="" width="200" height="200"></center>
+    <h3>Pink Teddy Bear</h3>
+    <p>Teddy bear 3 feet & so smooth teddybear 90 cm (pink).</p>
+    <h2>Rs 750/-</h2><br>
+    <div class="button-container">
+        <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+        <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+    </div>
+<h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+</div>
+<div class="divbox">
+    <center><img src="./toy shop images/teddy-bear-stuffed-animals-removebg-preview.png" alt="" width="200" height="200"></center>
+    <h3>Brown Teddy</h3>
+    <p>Kiddie Castle sitting teddy 32 cm and soft body.(Brown color).</p>
+    <h2>Rs 399/-</h2>
+    <div class="button-container">
+        <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+        <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+    </div>
+<h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+  </div>
+ <div class="divbox">
+  <center><img src="./toy shop images/Remote_bike-removebg-preview.png" alt="" width="200" height="200"></center>
+    <h3>Remote Bike</h3>
+    <p>Shipsify racing bike remote control high speed Bike(blue).</p>
+    <h2>Rs 479/-</h2>
+    <div class="button-container">
+        <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+        <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+    </div>
+<h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+    </div>
+    <div class="divbox"> 
+        <center><img src="./toy shop images/robot_r-removebg-preview.png" alt="" width="200" height="200"></center>
+    <h3>Toy Robot </h3>
+    <p>SNM97 robot toy for kids and boys.(Black and Green color).</p>
+    <h2>Rs 980/-</h2> 
+    <div class="button-container">
+        <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+        <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+    </div>
+<h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+ </div>
+ <div class="divbox">   
+    <center><img src="./toy shop images/cricket_kit-removebg-preview.png" alt="" width="200" height="200"></center>
+    <h3>Cricket kit</h3>
+    <p>CW blast cricket set of wooden criket Bat, Ball and Stumps.</p>
+    <h2>Rs 1450/-</h2>
+    <div class="button-container">
+        <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+        <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+    </div>
+<h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+    </div>
+<div class="divbox">
+    <center><img src="./toy shop images/teddy_tiger-removebg-preview.png" alt="" width="200" height="200"></center>
+    <h3>Teddy tiger</h3>
+    <p>Teddy mate brown tiger soft toy for kids - 32 cm(Brown).</p>
+    <h2>Rs 290/-</h2>
+    <div class="button-container">
+        <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+        <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+    </div>
+<h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+   </div>
+   <div class="divbox">
+   <center><img src="./toy shop images/images_basket-removebg-preview.png" alt="" width="200" height="200"></center>
+    <h3>Basket Ball</h3>
+    <p>Basket beech ball sillicon rubber balloon ball .size:3(pack of 1).</p>
+    <h2>Rs 789/-</h2>
+    <div class="button-container">
+        <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+        <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+    </div>
+<h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+</div>
+<div class="divbox">
+    <center><img src="./toy shop images/vollyball.png" alt="" width="230" height="200"></center>
+    <h3>Vollyball</h3>
+    <p>Super Synthetic hand stitched vollyball(size-4) (pack of 1).</p>
+    <h2>Rs 659/-</h2>
+    <div class="button-container">
+        <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+        <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+    </div>
+<h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+ </div>
+ <div class="divbox">
+    <center><img src="./toy shop images/jcb-removebg-preview.png" alt="" width="200" height="200"></center>
+    <h3>Toy Bulldozer</h3>
+    <p>Unbreakable pull back JCB loader vehicle toy for kids(yellow).</p>
+    <h2>Rs 349/-</h2>
+    <div class="button-container">
+        <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+        <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+    </div>
+<h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+</div>
+<div class="divbox">
+    <center><img src="./toy shop images/toy_bus-removebg-preview.png" alt="" width="200" height="200"></center>
+    <h3>Passenger Bus</h3>
+    <p>VRUX plastic bus friction toy for Boys and Girls(Red color).</p>
+    <h2>Rs 279/-</h2>
+    <div class="button-container">
+        <button><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;Add To Cart</button>
+        <button><i class="fa-solid fa-tag"></i>&nbsp;&nbsp;&nbsp;Buy Now</button>
+    </div>
+<h2><span style="color: darkblue;">Ratings</span>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-face-frown"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-frown-open"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-meh"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-rolling-eyes"></i>&nbsp;&nbsp;<i class="fa-solid fa-face-smile"></i></h2>
+</div>
+</main>
+<br><br><br><br><br>
+    <footer class="footer1">
+        <ul class="u2">
+            <div class="li">GET TO KNOW US</div><br>
+            <div class="li"><a href="">careers</a></li>
+            <div class="li"><a href="">sustainablity</a></div>
+            <div class="li"><a href="">about toys</a></div>
+            <div class="li"><a href="">accesiblity</a></div>
+            <div class="li"><a href="">press center</a></div>
+            <div class="li"><a href="">Toys devices</a></div> 
+        </ul>
+        <ul class="u2">
+            <div class="li">MAKE MONEY WITH US</div><br>
+            <div class="li"><a href="">sell on Toys world</a></div>
+            <div class="li"><a href="">sell apps on toyshop</a></div>
+            <div class="li"><a href="">advertise your products</a></div>
+            <div class="li"><a href="">self publish with us</a></div>
+            <div class="li"><a href="">become an affiliate</a></div>
+            <div class="li"><a href="">become a delivery driver</a></div>
+        </ul>
+        <ul class="u2">
+            <img src="./toy shop images/abstract-baby-toy-shop-removebg-preview.png" alt="" height="150px" width="150px"><br>
+            <img src="./toy shop images/white-facebook-removebg-preview.png" alt="" height="50" width="50">&nbsp;
+            <img src="./toy shop images/insta_1-removebg-preview.png" alt="" height="46" width="50">&nbsp;&nbsp;
+            <img src="./toy shop images/mail_-removebg-preview.png" alt="" height="50" width="47">&nbsp;&nbsp;
+            <img src="./toy shop images/whatsapp-removebg-preview.png" alt="" height="40" width="40">
+        </ul>       
+    </footer>
+    
+</body>
+</html>
